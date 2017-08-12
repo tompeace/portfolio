@@ -1,0 +1,61 @@
+html {
+    font-size: 17px
+}
+
+body {
+    background-color: #f6fcff;
+    color: #424141;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1rem;
+    margin: 1.5rem 3rem;
+}
+
+a {
+    color: #424141
+}
+
+a:hover {
+    opacity: .7
+}
+
+a:visited {
+    opacity: .2
+}
+
+a:active {
+    opacity: .2
+}
+
+.h1 {
+    font-size: 2rem
+}
+
+.h4 {
+    font-size: 1rem
+}
+
+.light {
+    font-weight: 300
+}
+
+.italic {
+    font-style: italic
+}
+
+.mb1 {
+    margin-bottom: 1rem
+}
+
+.fade-in {
+    opacity: 0;
+}
+
+.fade-in.js-active {
+    opacity: 1;
+}
+
+.transition {
+    transition: all 0.5s ease-in;
+}
