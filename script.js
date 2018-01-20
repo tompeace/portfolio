@@ -1,14 +1,14 @@
 (function() {
-  var Piece = function(){
-    this.fade();
-  };
+    var Piece = function() {
+        this.fadeIn();
+    };
 
-  Piece.prototype = {
-    fade: function(){
-      var target = document.querySelector('.fade-in');
-      target.classList.add('js-active');
-    }
-  };
+    Piece.prototype = {
+        fadeIn: function() {
+            var target = document.querySelector('.fade-in');
+            target.classList.add('js-active');
+        }
+    };
 
-  window.onload = new Piece();
+    window.onload = new Piece();
 })();

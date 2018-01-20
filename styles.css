@@ -3,49 +3,68 @@ html {
 }
 
 body {
-    background-color: #f6fcff;
-    color: #424141;
+    background-color: #2d2d2d;
+    color: #ffffff;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: 300;
     font-style: normal;
     font-size: 1rem;
     margin: 1.5rem 3rem;
+    line-height: 1.4;
 }
 
 a {
-    color: #424141
+    color: #ffffff;
 }
 
 a:hover {
-    opacity: .7
+    color: #2d2d2d;
+    opacity: .7;
 }
 
 a:visited {
-    opacity: .2
+    opacity: .2;
 }
 
 a:active {
-    opacity: .2
+    opacity: .2;
 }
 
-.h1 {
-    font-size: 2rem
+.h1, h1 {
+    font-size: 2rem;
 }
 
-.h4 {
-    font-size: 1rem
+.h2, h2 {
+    font-size: 1.5rem;
+}
+
+.h4, h4 {
+    font-size: 1rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul > li:before {
+    content: '—';
+    padding-right: 1rem;
 }
 
 .light {
-    font-weight: 300
+    font-weight: 300;
 }
 
 .italic {
-    font-style: italic
+    font-style: italic;
 }
 
 .mb1 {
-    margin-bottom: 1rem
+    margin-bottom: 1rem;
+}
+
+.pb3 {
+    padding-bottom: 2rem;
 }
 
 .fade-in {
